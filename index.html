@@ -1,0 +1,14 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Генератор палитры</title>
+	<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<input type="text" class="text" id="base" placeholder="ffeedd или 250,200,150" maxlength="11" size="20" pattern="[a-fA-F0-9,]+">
+<input type="text" class="text" id="grade" placeholder="Градации" value="5" maxlength="3" size="3" pattern="\d+">
+<button onclick="gen()" class="btn" id="btn-gen">Построить</button>
+<div id="palet"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
